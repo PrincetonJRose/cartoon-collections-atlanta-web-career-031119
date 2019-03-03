@@ -5,12 +5,12 @@ end
 
 def summon_captain_planet(elements)# code an argument here
   # Your code here
-  elements.each { |ele| ele = "#{ele.capitalize}!" }
+  elements.collect { |ele| "#{ele.capitalize}!" }
 end
 
 def long_planeteer_calls# code an argument here
   # Your code here
-  
+
 end
 
 def find_the_cheese# code an argument here
